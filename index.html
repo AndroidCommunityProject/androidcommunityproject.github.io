@@ -1,0 +1,166 @@
+<!DOCTYPE ahtml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Community Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-gray-900 shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <div class="text-2xl font-bold text-gray-50 uppercase tracking-widest">
+                <a href="#">ACP</a>
+            </div>
+            <ul class="flex flex-wrap sm:space-x-6 space-x-2 text-sm mt-4 sm:mt-0 font-medium">
+                <li><a href="#mission" class="hover:text-cyan-400 transition-colors duration-300">Mission</a></li>
+                <li><a href="#features" class="hover:text-cyan-400 transition-colors duration-300">Features</a></li>
+                <li><a href="#community" class="hover:text-cyan-400 transition-colors duration-300">Community</a></li>
+                <li><a href="#contribute" class="hover:text-cyan-400 transition-colors duration-300">Contribute</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center text-center p-6 bg-cover bg-center" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 1)), url('https://placehold.co/1920x1080/0f172a/94a3b8?text=A+Decentralized+Future+for+Android');">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-white mb-4 leading-tight">
+                A Secure and Private Foundation for Android ROMs.
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                The Android Community Project provides a robust base that developers and OEMs can build their custom Android distributions on, with a focus on giving OEMs and users freedom.
+            </p>
+            <a href="#contribute" class="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300">
+                Join the Movement
+            </a>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="py-20 px-4">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12">Our Mission</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center md:space-x-12 space-y-8 md:space-y-0">
+                <div class="flex-1 text-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <span class="text-5xl mb-4 inline-block">🔒</span>
+                    <h3 class="text-xl font-semibold mb-2">Privacy & Security</h3>
+                    <p class="text-gray-400">
+                        We are retaking AOSP from Google, giving OEMs and the community the freedom to make Android as secure and private as they want.
+                    </p>
+                </div>
+                <div class="flex-1 text-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <span class="text-5xl mb-4 inline-block">🚀</span>
+                    <h3 class="text-xl font-semibold mb-2">Freedom from Bloatware</h3>
+                    <p class="text-gray-400">
+                        We provide a clean, fast, and efficient base for developers to build their custom ROMs without
+                        pre-installed proprietary apps or unnecessary background services.
+                    </p>
+                </div>
+                <div class="flex-1 text-center bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <span class="text-5xl mb-4 inline-block">🌐</span>
+                    <h3 class="text-xl font-semibold mb-2">True Open Source</h3>
+                    <p class="text-gray-400">
+                        ACP is a truly open-source project, with development in the open,
+                        community governance, and a commitment to transparency.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-4 bg-gray-900">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12">Key Features for Developers</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-800 p-8 rounded-xl shadow-lg flex items-start space-x-4">
+                    <span class="text-3xl mt-1">🛠️</span>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-2">Seamless AOSP Integration</h3>
+                        <p class="text-gray-400">
+                            Forked directly from the Android Open Source Project, ACP ensures compatibility while giving people a stable base for people to base their OS on, with no involvement from Google.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-xl shadow-lg flex items-start space-x-4">
+                    <span class="text-3xl mt-1">⛓️</span>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-2">Independent Core</h3>
+                        <p class="text-gray-400">
+                            By decoupling from Google's services and dependencies, ACP offers a foundation that is stable and truly free from Google, so there aren't controversial changes, and developers can make Android whatever they want it to be.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="py-20 px-4">
+        <div class="container mx-auto max-w-3xl text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-8">The Heart of ACP: Our Community</h2>
+            <p class="text-gray-400 text-lg mb-8">
+                The Android Community Project is powered by passionate developers, designers, and enthusiasts from all over the world. Our collaborative, transparent, and welcoming community is the driving force behind this movement.
+            </p>
+            <div class="grid sm:grid-cols-3 gap-6">
+                <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Developers</h3>
+                    <p class="text-gray-400">
+                        Join our vibrant developer community on GitHub.
+                    </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Designers</h3>
+                    <p class="text-gray-400">
+                        Help us create a beautiful and intuitive user experience.
+                    </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Users</h3>
+                    <p class="text-gray-400">
+                        Test builds, report bugs, and share your feedback.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contribute" class="py-20 px-4 bg-cyan-500 text-center">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Join the Revolution?</h2>
+            <p class="text-white text-lg mb-8">
+                Your contributions, big or small, are what will make this project a success.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="https://github.com/AndroidCommunityProject" target="_blank" class="inline-block bg-white text-cyan-600 font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300">
+                    Explore Our GitHub
+                </a>
+                <a href="https://discord.gg/qr7ScUnm37" target="_blank" class="inline-block bg-white text-cyan-600 font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300">
+                    Join Our Discord
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 px-4 text-center text-gray-400 text-sm">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Android Community Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
